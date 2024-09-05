@@ -1,3 +1,3 @@
-# goit-js-hw-06
+# goit-js-hw-07
 
-already sixth javascript project
+already 7th javascript project. It will be hard and fun
