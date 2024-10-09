@@ -1,6 +1,5 @@
 const ulList = document.querySelectorAll('#categories');
 const list = document.querySelectorAll('.item');
-const listUnder = document.querySelectorAll('.item li');
 const numberOfCategories = list.length;
 console.log(`Number of categories: ${numberOfCategories}`);
 // console.log(list[0]);
