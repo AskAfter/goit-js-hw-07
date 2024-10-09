@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+h1,
 h2 {
   margin: 0;
 }
@@ -17,6 +18,8 @@ body {
 ul {
   list-style-type: none;
 }
+/* #region task-1 */
+
 #categories {
   display: flex;
   flex-direction: column;
@@ -65,6 +68,10 @@ ul {
   align-items: center;
   align-content: center;
 }
+/* #endregion task-1 */
+
+/* #region task-2*/
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -72,4 +79,36 @@ ul {
   row-gap: 48px;
   max-width: 1440px;
   padding: 100px 156px;
+}
+/* #endregion task-2*/
+
+/* #region task-3 */
+#name-input {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-left: 16px;
+  outline: none;
+  margin-bottom: 16px;
+}
+#name-input:focus {
+  border: 1px solid #000;
+  /* #endregion task-3 */
+}
+h1 {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.96px;
 }
