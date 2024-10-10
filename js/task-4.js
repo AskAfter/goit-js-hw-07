@@ -18,8 +18,8 @@ textInput.forEach(input => {
 function funcSubmit(event) {
   event.preventDefault();
   const submitForm = event.target;
-  const email = event.target.email.value;
-  const password = event.target.password.value;
+  const email = submitForm.elements.email.value;
+  const password = submitForm.elements.password.value;
   if (email === '' || password === '') {
     return console.log('All form fields must be filled in');
   }
