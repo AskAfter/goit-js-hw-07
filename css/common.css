@@ -101,7 +101,6 @@ ul {
 }
 #name-input:focus {
   border: 1px solid #000;
-  /* #endregion task-3 */
 }
 h1 {
   color: #2e2f42;
@@ -112,3 +111,70 @@ h1 {
   line-height: 32px; /* 133.333% */
   letter-spacing: 0.96px;
 }
+/* #endregion task-3 */
+
+/* #region task-4 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  gap: 8px;
+  padding: 24px;
+}
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.login-form input {
+  outline: none;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.login-form input:hover {
+  border: 1px solid #000;
+}
+
+.login-form button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  border: 0px;
+  border-radius: 8px;
+  background: #4e75ff;
+  outline: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.login-form button:hover,
+.login-form button:focus {
+  background: #6c8cff;
+}
+
+/* #endregion task-4 */
