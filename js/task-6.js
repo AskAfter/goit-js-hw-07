@@ -42,34 +42,3 @@ function createBoxes(amount) {
 const btnDestroy = destroy.addEventListener('click', () => {
   boxes.innerHTML = '';
 });
-
-// const list = images
-//   .map(
-//     image =>
-//       `<li class="list"><img height="300px" width="360px" src="${image.url}" alt="${image.alt}"></li>`
-//   )
-//   .join('');
-// galleryList.insertAdjacentHTML('beforeend', list);
-
-// textInput.forEach(input => {
-//   input.addEventListener('focus', () => {
-//     input.placeholder = 'Type area';
-//   });
-//   input.addEventListener('blur', () => {
-//     input.placeholder = '';
-//   });
-// });
-
-// function funcSubmit(event) {
-//   event.preventDefault();
-//   const submitForm = event.target;
-//   const email = submitForm.elements.email.value;
-//   const password = submitForm.elements.password.value;
-//   if (email === '' || password === '') {
-//     return console.log('All form fields must be filled in');
-//   }
-//   userData.email = email.trim();
-//   userData.password = password.trim();
-//   console.log(userData);
-//   form.reset();
-// }
