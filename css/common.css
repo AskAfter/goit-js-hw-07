@@ -83,6 +83,7 @@ ul {
 /* #endregion task-2*/
 
 /* #region task-3 */
+
 #name-input {
   color: #2e2f42;
   font-family: Montserrat;
@@ -223,3 +224,69 @@ h1 {
 }
 
 /* #endregion task-5 */
+
+/* #region task-6 */
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  width: 486px;
+  margin: 0 auto;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+#controls input {
+  display: block;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  text-align: center;
+  outline: none;
+}
+#controls input:focus {
+  border: 1px solid #000;
+}
+
+#controls button {
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  text-align: center;
+  border: 0;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  transition: background-color 0.3s cubic-bezier(0.9, 0.27, 0.4, 0.51);
+}
+
+#controls button:hover,
+#controls button:focus {
+  background-color: #6c8cff;
+}
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 32px;
+  width: 486px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+/* #endregion task-6 */
