@@ -284,7 +284,7 @@ h1 {
   flex-wrap: wrap;
   gap: 44px;
   padding: 32px;
-  width: 486px;
+  min-width: 486px;
   background-color: #f6f6fe;
   border-radius: 8px;
   margin: 0 auto;
